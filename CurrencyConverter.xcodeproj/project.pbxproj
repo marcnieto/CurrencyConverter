@@ -274,6 +274,7 @@
 		F269D6411E5E536F00E9B10B /* ZW.png in Resources */ = {isa = PBXBuildFile; fileRef = F269D53D1E5E536E00E9B10B /* ZW.png */; };
 		F269D6441E5E53BE00E9B10B /* FlagCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = F269D6431E5E53BE00E9B10B /* FlagCollection.m */; };
 		F269D6481E5E91A000E9B10B /* CCSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F269D6471E5E91A000E9B10B /* CCSessionManager.m */; };
+		F269D6BD1E669F7000E9B10B /* CurrencyConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F269D6BC1E669F7000E9B10B /* CurrencyConverterTests.m */; };
 		F29F0BB81E5C37E00083533E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F29F0BB71E5C37E00083533E /* main.m */; };
 		F29F0BBB1E5C37E00083533E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F29F0BBA1E5C37E00083533E /* AppDelegate.m */; };
 		F29F0BBE1E5C37E00083533E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29F0BBD1E5C37E00083533E /* ViewController.m */; };
@@ -281,6 +282,16 @@
 		F29F0BC31E5C37E00083533E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29F0BC21E5C37E00083533E /* Assets.xcassets */; };
 		F29F0BC61E5C37E00083533E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29F0BC41E5C37E00083533E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F269D6BF1E669F7000E9B10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29F0BAB1E5C37E00083533E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29F0BB21E5C37E00083533E;
+			remoteInfo = CurrencyConverter;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0D834BBE4D109BA1304E414A /* Pods-CurrencyConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurrencyConverter.release.xcconfig"; path = "Pods/Target Support Files/Pods-CurrencyConverter/Pods-CurrencyConverter.release.xcconfig"; sourceTree = "<group>"; };
@@ -556,6 +567,9 @@
 		F269D6431E5E53BE00E9B10B /* FlagCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlagCollection.m; path = "Flag Data/FlagCollection.m"; sourceTree = "<group>"; };
 		F269D6461E5E91A000E9B10B /* CCSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCSessionManager.h; path = API/CCSessionManager.h; sourceTree = "<group>"; };
 		F269D6471E5E91A000E9B10B /* CCSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCSessionManager.m; path = API/CCSessionManager.m; sourceTree = "<group>"; };
+		F269D6BA1E669F7000E9B10B /* CurrencyConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F269D6BC1E669F7000E9B10B /* CurrencyConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverterTests.m; sourceTree = "<group>"; };
+		F269D6BE1E669F7000E9B10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F29F0BB31E5C37E00083533E /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29F0BB71E5C37E00083533E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F29F0BB91E5C37E00083533E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -570,6 +584,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F269D6B71E669F7000E9B10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F29F0BB01E5C37E00083533E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -930,6 +951,15 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		F269D6BB1E669F7000E9B10B /* CurrencyConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F269D6BC1E669F7000E9B10B /* CurrencyConverterTests.m */,
+				F269D6BE1E669F7000E9B10B /* Info.plist */,
+			);
+			path = CurrencyConverterTests;
+			sourceTree = "<group>";
+		};
 		F29F0BAA1E5C37E00083533E = {
 			isa = PBXGroup;
 			children = (
@@ -937,6 +967,7 @@
 				F29F0BB41E5C37E00083533E /* Products */,
 				E3F8CB9A0C4B491E82C52BFB /* Pods */,
 				C0BC91C1849FFE68307A9043 /* Frameworks */,
+				F269D6BB1E669F7000E9B10B /* CurrencyConverterTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -944,6 +975,7 @@
 			isa = PBXGroup;
 			children = (
 				F29F0BB31E5C37E00083533E /* CurrencyConverter.app */,
+				F269D6BA1E669F7000E9B10B /* CurrencyConverterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -987,6 +1019,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F269D6B91E669F7000E9B10B /* CurrencyConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F269D6C31E669F7000E9B10B /* Build configuration list for PBXNativeTarget "CurrencyConverterTests" */;
+			buildPhases = (
+				F269D6B61E669F7000E9B10B /* Sources */,
+				F269D6B71E669F7000E9B10B /* Frameworks */,
+				F269D6B81E669F7000E9B10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F269D6C01E669F7000E9B10B /* PBXTargetDependency */,
+			);
+			name = CurrencyConverterTests;
+			productName = CurrencyConverterTests;
+			productReference = F269D6BA1E669F7000E9B10B /* CurrencyConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F29F0BB21E5C37E00083533E /* CurrencyConverter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F29F0BCA1E5C37E00083533E /* Build configuration list for PBXNativeTarget "CurrencyConverter" */;
@@ -1016,6 +1066,12 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = KandidProductions;
 				TargetAttributes = {
+					F269D6B91E669F7000E9B10B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4KZ4V98VU7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F29F0BB21E5C37E00083533E;
+					};
 					F29F0BB21E5C37E00083533E = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4KZ4V98VU7;
@@ -1037,11 +1093,19 @@
 			projectRoot = "";
 			targets = (
 				F29F0BB21E5C37E00083533E /* CurrencyConverter */,
+				F269D6B91E669F7000E9B10B /* CurrencyConverterTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F269D6B81E669F7000E9B10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F29F0BB11E5C37E00083533E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1364,6 +1428,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F269D6B61E669F7000E9B10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F269D6BD1E669F7000E9B10B /* CurrencyConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F29F0BAF1E5C37E00083533E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1380,6 +1452,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F269D6C01E669F7000E9B10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29F0BB21E5C37E00083533E /* CurrencyConverter */;
+			targetProxy = F269D6BF1E669F7000E9B10B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F29F0BBF1E5C37E00083533E /* Main.storyboard */ = {
@@ -1401,6 +1481,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F269D6C11E669F7000E9B10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4KZ4V98VU7;
+				INFOPLIST_FILE = CurrencyConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KandidProductions.CurrencyConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurrencyConverter.app/CurrencyConverter";
+			};
+			name = Debug;
+		};
+		F269D6C21E669F7000E9B10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4KZ4V98VU7;
+				INFOPLIST_FILE = CurrencyConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KandidProductions.CurrencyConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurrencyConverter.app/CurrencyConverter";
+			};
+			name = Release;
+		};
 		F29F0BC81E5C37E00083533E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1518,6 +1624,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F269D6C31E669F7000E9B10B /* Build configuration list for PBXNativeTarget "CurrencyConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F269D6C11E669F7000E9B10B /* Debug */,
+				F269D6C21E669F7000E9B10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F29F0BAE1E5C37E00083533E /* Build configuration list for PBXProject "CurrencyConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
