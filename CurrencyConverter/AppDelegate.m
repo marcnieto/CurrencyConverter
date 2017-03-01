@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ExchangeSelectionViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Instantiate the main window
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // Get the navigation controller based on whether the app is free or paid
+    UINavigationController *rootNavigationController;
+    
+    // Load the normal main view controller as root view controller
+    rootNavigationController = [[UINavigationController alloc]initWithRootViewController:[[ExchangeSelectionViewController alloc]init]];
+    
+    // Set the root view controller
+    self.window.rootViewController = rootNavigationController;
+
+    
     return YES;
 }
 
